@@ -9,12 +9,7 @@ class Song
     # @@count += 1
     save
   end
-
-  # def self.count
-  #   count
-  # end
-
-
+  
   def save
     @@all << self
   end
